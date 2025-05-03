@@ -94,59 +94,43 @@ RAZORPAY_SECRET = Secret
 # Project Structure
 ### Backend
 
+```
+
 server/
 
 ├── config/          # Cloudinary and database configuration
-
 ├── controllers/     # Business logic (Auth, Course, Payments, etc.)
-
 ├── mail/            # Email templates
-
 ├── middlewares/     # Auth middleware
-
 ├── models/          # Mongoose schemas
-
 ├── routes/          # Express routes
-
 ├── utils/           # Helper functions
-
 ├── .env             # Environment variables
-
 └── index.js         # Server entry point
 
+```
 ---
 
 # Frontend
+
+```
 src/
-
 ├── assets/          # Static files (images, videos)
-
 ├── components/      # Reusable UI components
-
 │   ├── common/      # Navbar, Footer, etc.
-
 │   ├── core/        # Page-specific components
-
 ├── data/            # Static data
-
 ├── hooks/           # Custom React hooks
-
 ├── pages/           # Page-level components
-
 ├── reducer/         # Redux reducers
-
 ├── services/        # API connectors
-
 ├── slices/          # Redux slices
-
 ├── utils/           # Utility functions
-
 ├── App.js           # Main App component
-
 ├── index.js         # React entry point
-
 └── index.css        # Global styles
 
+```
 
 ---
 
