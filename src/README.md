@@ -18,7 +18,7 @@ This directory contains the frontend components for the StudyNotion project. The
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/studynotion.git
+   git clone https://github.com/HimanshuKumar101/Study_Notion.git
    cd studynotion/src
 2. Install dependencies:
    ```bash
@@ -38,20 +38,35 @@ RAZORPAY_SECRET = Secret
 
 
 src/
+
 ├── assets/                     # Static assets like images and videos
+
 ├── components/                 # Reusable React components
+
 │   ├── common/                 # Shared components like Navbar, Footer, etc.
+
 │   ├── core/                   # Core components for specific pages
+
 ├── data/                       # Static data like links and configurations
+
 ├── hooks/                      # Custom React hooks
+
 ├── pages/                      # Page-level components
+
 ├── reducer/                    # Redux reducers
+
 ├── services/                   # API connectors and service logic
+
 │   ├── operations/             # API operation functions
+
 ├── slices/                     # Redux slices for state management
+
 ├── utils/                      # Utility functions and constants
+
 ├── [App.js](http://_vscodecontentref_/0)                      # Main application component
+
 ├── [index.js](http://_vscodecontentref_/1)                    # Entry point for the React application
+
 └── index.css                   # Global styles
 
 
