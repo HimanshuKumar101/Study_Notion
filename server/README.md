@@ -59,89 +59,51 @@ The server requires the following environment variables to function correctly. A
 ---
 # Project Structure
 
+```
 server/
-
 ├── config/
-
 │   ├── [cloudinary.js](http://_vscodecontentref_/0)         # Cloudinary configuration for media uploads
-
 │   ├── [database.js](http://_vscodecontentref_/1)           # MongoDB connection setup
-
 ├── controllers/
-
 │   ├── [Auth.js](http://_vscodecontentref_/2)               # User authentication and authorization
-
 │   ├── [Category.js](http://_vscodecontentref_/3)           # Category management
-
 │   ├── [ContactUs.js](http://_vscodecontentref_/4)          # Contact form handling
-
 │   ├── [Course.js](http://_vscodecontentref_/5)             # Course management
-
 │   ├── [Payments.js](http://_vscodecontentref_/6)           # Payment processing
-
 │   ├── [Profile.js](http://_vscodecontentref_/7)            # User profile management
-
 │   ├── [RatingAndReview.js](http://_vscodecontentref_/8)    # Ratings and reviews for courses
-
 │   ├── [ResetPassword.js](http://_vscodecontentref_/9)      # Password reset functionality
-
 │   ├── [Section.js](http://_vscodecontentref_/10)            # Section management within courses
-
 │   ├── [Subsection.js](http://_vscodecontentref_/11)         # Subsection management within sections
-
 │   ├── [courseProgress.js](http://_vscodecontentref_/12)     # Course progress tracking
-
 ├── mail/
-
 │   ├── templates/            # Email templates for various notifications
-
 ├── middlewares/
-
 │   ├── [auth.js](http://_vscodecontentref_/13)               # Authentication and role-based access control
-
 ├── models/
-
 │   ├── [Category.js](http://_vscodecontentref_/14)           # Category schema
-
 │   ├── [Course.js](http://_vscodecontentref_/15)             # Course schema
-
 │   ├── [CourseProgress.js](http://_vscodecontentref_/16)     # Course progress schema
-
 │   ├── [OTP.js](http://_vscodecontentref_/17)                # OTP schema for email verification
-
 │   ├── [Profile.js](http://_vscodecontentref_/18)            # User profile schema
-
 │   ├── [RatingAndReview.js](http://_vscodecontentref_/19)    # Ratings and reviews schema
-
 │   ├── [Section.js](http://_vscodecontentref_/20)            # Section schema
-
 │   ├── [SubSection.js](http://_vscodecontentref_/21)         # Subsection schema
-
 │   ├── [User.js](http://_vscodecontentref_/22)               # User schema
-
 ├── routes/
-
 │   ├── [Contact.js](http://_vscodecontentref_/23)            # Routes for contact form
-
 │   ├── [Course.js](http://_vscodecontentref_/24)             # Routes for course management
-
 │   ├── [Payments.js](http://_vscodecontentref_/25)           # Routes for payment processing
-
 │   ├── [Profile.js](http://_vscodecontentref_/26)            # Routes for user profiles
-
 │   ├── [User.js](http://_vscodecontentref_/27)               # Routes for user authentication
-
 ├── utils/
-
 │   ├── [imageUploader.js](http://_vscodecontentref_/28)      # Utility for uploading images to Cloudinary
-
 │   ├── [mailSender.js](http://_vscodecontentref_/29)         # Utility for sending emails
-
 │   ├── [secToDuration.js](http://_vscodecontentref_/30)      # Utility for converting seconds to duration
-
 ├── .env                      # Environment variables file
-
 ├── [index.js](http://_vscodecontentref_/31)                  # Entry point for the server
+
+```
 
 
 ---
